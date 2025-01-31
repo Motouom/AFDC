@@ -1,0 +1,70 @@
+site_name: Association des femmes de distinction pour Christ
+site_url: https://afdc-christ.org # Replace with your actual domain
+site_description: Une association chrétienne dédiée à l'édification des femmes et à la propagation de l'Évangile de Jésus-Christ.
+site_author: Association des femmes de distinction pour Christ
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs
+    - toc.integrate
+
+repo_url: https://github.com/yourusername/afdc-website # Replace with your GitHub repo
+edit_uri: edit/main/docs/
+
+nav:
+  - Accueil: index.md
+  - À propos: about.md
+  - Témoignages: testimonies.md
+  - Livres: books.md
+  - Événements: events.md
+  - Blog: blog.md
+  - Contact: contact.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/yourpage
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourhandle
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/yourchannel
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/yourprofile
+
+extra:
+  generator: false
+
+  footer:
+    - Copyright &copy; 2023 Association des femmes de distinction pour Christ. Tous droits réservés.
+    - "[Mentions légales](legal.md)"
+    - "[Politique de confidentialité](privacy.md)"
+    - "[Contactez-nous](contact.md)"
+    - "[Faire un Don](donate.md)"
+    - Social:
+      - icon: fontawesome/brands/facebook
+        link: https://facebook.com/yourpage
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/yourhandle
+      - icon: fontawesome/brands/youtube
+        link: https://youtube.com/yourchannel
+      - icon: fontawesome/brands/instagram
+        link: https://instagram.com/yourprofile
